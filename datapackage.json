@@ -11,7 +11,7 @@
   "keywords": [ "Population", "World", "Time series" ],
   "version": "2011",
   "last_updated": "2012-10-18",
-  "source": [{
+  "sources": [{
     "name": "World Bank",
     "web": "http://data.worldbank.org/indicator/SP.POP.TOTL"
   }],
