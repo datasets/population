@@ -15,7 +15,7 @@
     "name": "World Bank",
     "web": "http://data.worldbank.org/indicator/SP.POP.TOTL"
   }],
-  "data": [
+  "files": [
     {
       "path": "data/population.csv",
       "fields": [
