@@ -15,28 +15,30 @@
     "name": "World Bank",
     "web": "http://data.worldbank.org/indicator/SP.POP.TOTL"
   }],
-  "files": [
+  "resources": [
     {
       "path": "data/population.csv",
-      "fields": [
-        {
-          "id": "Country Name",
-          "type": "string"
-        },
-        {
-          "id": "Country Code",
-          "type": "string"
-        },
-        {
-          "id": "Year",
-          "type": "date",
-          "fulltype": "date/year"
-        },
-        {
-          "id": "Value",
-          "type": "float"
-        }
-      ]
+      "schema": {
+        "fields": [
+          {
+            "id": "Country Name",
+            "type": "string"
+          },
+          {
+            "id": "Country Code",
+            "type": "string"
+          },
+          {
+            "id": "Year",
+            "type": "date",
+            "fulltype": "date/year"
+          },
+          {
+            "id": "Value",
+            "type": "float"
+          }
+        ]
+      }
     }
   ]
 }
