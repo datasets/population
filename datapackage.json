@@ -21,20 +21,20 @@
       "schema": {
         "fields": [
           {
-            "id": "Country Name",
+            "name": "Country Name",
             "type": "string"
           },
           {
-            "id": "Country Code",
+            "name": "Country Code",
             "type": "string"
           },
           {
-            "id": "Year",
+            "name": "Year",
             "type": "date",
             "fulltype": "date/year"
           },
           {
-            "id": "Value",
+            "name": "Value",
             "type": "float"
           }
         ]
