@@ -1,14 +1,15 @@
 import urllib
+import os
+import csv
+import tempfile
 
-dest = 'cache/worldbank-data.csv'
+f = tempfile.NamedTemporaryFile()
+dest = f.name
 
 def download():
-    # urllib.urlretrieve('http://api.worldbank.org/datafiles/SP.POP.TOTL_Indicator_MetaData_en_XML.zip')
-    source = 'http://api.worldbank.org/datafiles/SP.POP.TOTL_Indicator_MetaData_en.csv'
     source = 'http://api.worldbank.org/countries/all/indicators/SP.POP.TOTL?format=csv'
     urllib.urlretrieve(source, dest)
 
-import csv
 def process():
     # un-pivot the table
     fo = open(dest)
@@ -30,6 +31,5 @@ def process():
     writer.writerow(outheadings)
     writer.writerows(outlines)
 
-# download()
+download()
 process()
-
