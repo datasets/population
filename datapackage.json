@@ -29,9 +29,8 @@
             "type": "string"
           },
           {
-            "format": "any",
             "name": "Year",
-            "type": "date"
+            "type": "year"
           },
           {
             "name": "Value",
@@ -44,7 +43,8 @@
   "sources": [
     {
       "name": "World Bank",
-      "web": "http://data.worldbank.org/indicator/SP.POP.TOTL"
+      "web": "http://data.worldbank.org/indicator/SP.POP.TOTL",
+      "title": "World Bank"
     }
   ],
   "title": "Population figures for countries, regions (e.g. Asia) and the world",
