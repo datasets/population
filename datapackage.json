@@ -48,5 +48,30 @@
     }
   ],
   "title": "Population figures for countries, regions (e.g. Asia) and the world",
-  "version": "2011"
+  "version": "2011",
+  "views": [
+    {
+      "name": "world-population-trend",
+      "title": "World population trend",
+      "specType": "simple",
+      "resources": [
+        {
+          "name": "population",
+          "transform": [
+            {
+              "type": "filter",
+              "expression": "data['Country Code'] === 'WLD'"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "type": "line",
+        "group": "Year",
+        "series": [
+          "Value"
+        ]
+      }
+    }
+  ]
 }
