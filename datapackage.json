@@ -8,8 +8,9 @@
   "last_updated": "2012-10-18",
   "licenses": [
     {
-      "id": "odc-pddl",
-      "url": "http://opendatacommons.org/licenses/pddl/"
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
   "name": "population",
@@ -43,7 +44,7 @@
   "sources": [
     {
       "name": "World Bank",
-      "web": "http://data.worldbank.org/indicator/SP.POP.TOTL",
+      "path": "http://data.worldbank.org/indicator/SP.POP.TOTL",
       "title": "World Bank"
     }
   ],
