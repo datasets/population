@@ -73,6 +73,52 @@
           "Value"
         ]
       }
+    },
+    {
+      "name": "china-population-trend",
+      "title": "China population trend",
+      "specType": "simple",
+      "resources": [
+        {
+          "name": "population",
+          "transform": [
+            {
+              "type": "filter",
+              "expression": "data['Country Code'] === 'CHN'"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "type": "line",
+        "group": "Year",
+        "series": [
+          "Value"
+        ]
+      }
+    },
+    {
+      "name": "us-population-trend",
+      "title": "US population trend",
+      "specType": "simple",
+      "resources": [
+        {
+          "name": "population",
+          "transform": [
+            {
+              "type": "filter",
+              "expression": "data['Country Code'] === 'USA'"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "type": "line",
+        "group": "Year",
+        "series": [
+          "Value"
+        ]
+      }
     }
   ]
 }
