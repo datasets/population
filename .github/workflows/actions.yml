@@ -3,7 +3,7 @@ name: Update population dataset
 on:
   # Schedule to run on the 1st January each year
   schedule:
-    - cron: '0 0 1 1 *'
+    - cron: '0 0 1 1,4,7,10 *'
 
   push:
     branches:
