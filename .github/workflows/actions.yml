@@ -53,7 +53,7 @@ jobs:
     - name: Commit and Push changes
       run: |
         git diff --quiet && echo "No changes to commit" || (
-          git add . &&
+          git add data &&
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}" &&
           git push origin main
         )
