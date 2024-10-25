@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/population"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/population"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 Population figures for countries, regions (e.g. Asia) and the world. Data comes
 originally from World Bank and has been converted into standard CSV.
