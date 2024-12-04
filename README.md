@@ -15,6 +15,20 @@ Secretariat of the Pacific Community: Statistics and Demography Programme, and
 
 [wb]: http://data.worldbank.org/indicator/SP.POP.TOTL
 
+## Preparation
+
+The `population.csv` is processed using `scripts/process.py` script.
+
+```
+    pip install -r scripts/requirements.txt
+    python scripts/process.py
+```
+
+## Automation
+
+Up-to-date (auto-updates on quarterly basis) population dataset could be found on the datahub.io:
+https://datahub.io/core/population
+
 ## License
 
 This Data Package is licensed by its maintainers under the [Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/).
