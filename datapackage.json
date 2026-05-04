@@ -38,7 +38,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "description": "Annual total population for all countries and regions from 1960 to present, sourced from the World Bank."
     }
   ],
   "sources": [
